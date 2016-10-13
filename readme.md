@@ -2,6 +2,8 @@
 
 My personal [website](http://juliuste.de). Sorry for the CSS. Seriously, don't check it out… you might start crying.
 
+Design inspired by [Jannis Redmann](http://jannisr.de)
+
 [![license](https://img.shields.io/github/license/juliuste/website.svg?style=flat)](LICENSE)
 
 ## Contributing
