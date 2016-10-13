@@ -1,10 +1,11 @@
 .hexagon {
+  font-size: 180%;
   position: relative;
-  width: 300px; 
-  height: 173.21px;
-  margin: 86.60px 0;
+  width: 10em; 
+  height: 5.774em;
+  margin: 2.887em 0;
   background-image: url(./profile.jpg);
-  background-size: auto 346.4102px;
+  background-size: auto 11.54701em;
   background-position: center;
 }
 
@@ -12,14 +13,14 @@
 .hexBottom {
   position: absolute;
   z-index: 1;
-  width: 212.13px;
-  height: 212.13px;
+  width: 7.071em;
+  height: 7.071em;
   overflow: hidden;
   -webkit-transform: scaleY(0.5774) rotate(-45deg);
   -ms-transform: scaleY(0.5774) rotate(-45deg);
   transform: scaleY(0.5774) rotate(-45deg);
   background: inherit;
-  left: 43.93px;
+  left: 1.464em;
 }
 
 /*counter transform the bg image on the caps*/
@@ -27,11 +28,11 @@
 .hexBottom:after {
   content: "";
   position: absolute;
-  width: 300.0000px;
-  height: 173.20508075688775px;
-  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
-  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
-  transform:          rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+  width: 10.00000em;
+  height: 5.773502691896258em;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-2.88675em);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-2.88675em);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-2.88675em);
   -webkit-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
   transform-origin: 0 0;
@@ -39,7 +40,7 @@
 }
 
 .hexTop {
-  top: -106.0660px;
+  top: -3.53553em;
 }
 
 .hexTop:after {
@@ -47,7 +48,7 @@
 }
 
 .hexBottom {
-  bottom: -106.0660px;
+  bottom: -3.53553em;
 }
 
 .hexBottom:after {
@@ -57,10 +58,10 @@
 .hexagon:after {
   content: "";
   position: absolute;
-  top: 0.0000px;
+  top: 0.0000em;
   left: 0;
-  width: 300.0000px;
-  height: 173.2051px;
+  width: 10.00000em;
+  height: 5.77350em;
   z-index: 2;
   background: inherit;
 }
