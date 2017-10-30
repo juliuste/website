@@ -1,10 +1,10 @@
 # website
 
-My personal [website](http://juliuste.de). Sorry for the CSS. Seriously, don't check it out… you might start crying.
+My personal [website](https://juliustens.eu). Sorry for the CSS. Seriously, don't check it out… you might start crying.
 
-Design inspired by [Jannis Redmann](http://jannisr.de).
+Design inspired by [Jannis Redmann](https://jannisr.de).
 
-[![license](https://img.shields.io/github/license/juliuste/website.svg?style=flat)](LICENSE)
+[![license](https://img.shields.io/github/license/juliuste/website.svg?style=flat)](license)
 
 ## Contributing
 

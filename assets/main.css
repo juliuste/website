@@ -1,17 +1,16 @@
 body{
 	background: #fff;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	color: #000;
 	font-size: 100%;
 	font-family: Helvetica;
-	padding: 0;
 	min-height: 100vh;
 	position: relative;
 	padding: 0 1%;
 }
 a{
-	color: #03a;
+	color: #079;
 }
 p{
 	color: #333;
@@ -19,12 +18,12 @@ p{
 	margin-bottom: 0;
 }
 h1, h2{
-	color: #07c;
+	color: #08a;
 	margin: 0;
-	font-weight: lighter;
+	font-weight: normal;
 }
 h1{
-	font-size: 250%;
+	font-size: 200%;
 }
 a:hover{
 	opacity: 0.8;
@@ -34,13 +33,15 @@ a:hover{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 1em 0;
-	margin-bottom: 7vh;
+	justify-content: center;
+	align-items: center;
+	margin-top: .1em 0 0 0;
+	padding: 3rem .5rem 2rem .5rem;
 }
 .footerPage{
 	font-size: 1.3em;
 	text-align: center;
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 }
 
 #picture{
@@ -53,7 +54,7 @@ a:hover{
 	display: block;
 	width: 100%;
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 1.5em;
 	font-size: 1.3em;
 	margin-bottom: -.5em;
 }
@@ -114,6 +115,9 @@ nav ul{
 .projectText{
 	line-height: 1.2em;
 }
+.small{
+	max-width: 500px;
+}
 
 #rootLink{
 	width: 100%;
@@ -122,24 +126,23 @@ nav ul{
 	bottom: 0;
 	left: 0;
 	padding: 1ex 0;
-	border-top: 2px dashed #07c;
+	border-top: 2px dashed #08a;
 	font-size: 125%;
 	background: #f1f1f1;
 	text-align: center;
 }
 #rootLink a{
-	color: #07c;
+	color: #08a;
 }
 
 @media screen and (max-width: 1000px){
 	.img{display: none;}
 	.text{width: 90%;}
+	.project {width: 100%; padding: 1em 0;}
 }
 @media screen and (max-width: 600px) and (min-width: 401px) {
-	body{font-size: 90%;}
-	#picture{font-size: 85%;}
+	.project {width: 100%; padding: 1em 0;}
 }
 @media screen and (max-width: 400px) {
-	body{font-size: 75%;}
-	#picture{font-size: 90%;}
+	.project {width: 100%; padding: 1em 0;}
 }
