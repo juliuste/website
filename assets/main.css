@@ -8,6 +8,7 @@ body{
 	padding: 0;
 	min-height: 100vh;
 	position: relative;
+	padding: 1%
 }
 a{
 	color: #03a;
@@ -31,7 +32,8 @@ a:hover{
 
 #page{
 	width: 100%;
-	display: block;
+	display: flex;
+	flex-direction: column;
 	padding: 1em .2em;
 }
 .footerPage{
@@ -43,22 +45,28 @@ a:hover{
 #picture{
 	margin: 0 auto;
 	overflow: auto;
+	flex: 1;
 }
 #description{
+	flex: 1;
 	display: block;
 	width: 100%;
 	text-align: center;
 	margin-top: 2em;
 	font-size: 1.3em;
 }
+#description p{
+	line-height: 1.4em;
+}
 nav ul li{
 	display: inline;
 	padding: 0 .6em;
 }
 nav ul{
-	margin-top: 1.2em;
+	margin-top: 1em;
 	display: inline-block;
 	padding: 0;
+	line-height: 1.4em;
 }
 
 #projects{
@@ -98,6 +106,13 @@ nav ul{
 	margin: 0 0 .3em 0;
 }
 
+.normalText{
+	line-height: 1.3em;
+}
+.projectText{
+	line-height: 1.2em;
+}
+
 #rootLink{
 	width: 100%;
 	display: block;
@@ -114,14 +129,15 @@ nav ul{
 	color: #07c;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px){
 	.img{display: none;}
 	.text{width: 90%;}
 }
-@media screen and (max-width: 600px) {
-	#picture{font-size: 90%;}
+@media screen and (max-width: 600px) and (min-width: 401px) {
+	body{font-size: 90%;}
+	#picture{font-size: 85%;}
 }
 @media screen and (max-width: 400px) {
 	body{font-size: 80%;}
-	#picture{font-size: 100%;}
+	#picture{font-size: 75%;}
 }
