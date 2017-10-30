@@ -35,6 +35,7 @@ a:hover{
 	display: flex;
 	flex-direction: column;
 	padding: 1em 0;
+	margin-bottom: 7vh;
 }
 .footerPage{
 	font-size: 1.3em;
@@ -140,5 +141,5 @@ nav ul{
 }
 @media screen and (max-width: 400px) {
 	body{font-size: 75%;}
-	#picture{font-size: 85%;}
+	#picture{font-size: 90%;}
 }
