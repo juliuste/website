@@ -48,7 +48,7 @@ a:hover{
 	flex: 1;
 }
 #description{
-	flex: 1;
+	flex: 2;
 	display: block;
 	width: 100%;
 	text-align: center;
@@ -140,5 +140,5 @@ nav ul{
 }
 @media screen and (max-width: 400px) {
 	body{font-size: 75%;}
-	#picture{font-size: 90%;}
+	#picture{font-size: 85%;}
 }
